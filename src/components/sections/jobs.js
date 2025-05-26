@@ -285,9 +285,8 @@ const Jobs = () => {
                     aria-hidden={activeTabId !== i}
                     hidden={activeTabId !== i}>
                     <h3>
-                      <span>{title}</span>
+                      <span>{title}</span> at{' '}
                       <span className="company">
-                        &nbsp;@&nbsp;
                         <a href={url} className="inline-link">
                           {company}
                         </a>

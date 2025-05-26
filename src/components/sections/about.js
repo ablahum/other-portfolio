@@ -5,6 +5,8 @@ import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
+// grid-template-columns: repeat(2, minmax(140px, 200px));
+
 const StyledAboutSection = styled.section`
   max-width: 900px;
 
@@ -21,7 +23,8 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-auto-flow: column;
+    grid-template-rows: repeat(6, auto);
     grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
@@ -125,7 +128,27 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'HTML & CSS',
+    'Tailwind',
+    'Bootstrap',
+    'JavaScript',
+    'Vue.js',
+    'React.js',
+
+    'Next.js',
+    'TypeScript',
+    'Node.js',
+    'Express.js',
+    'PHP',
+    'Laravel',
+    'CodeIgniter',
+
+    'Prisma',
+    'MySQL',
+    'PostgreSQL',
+    'MongoDB',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +158,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
-            </p>
-
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
+              My name is Rizky (you can call me Tama), and I enjoy creating things that live on the
+              internet. My interest in web development started back in 2014 when I decided to try
+              editing custom Blog at{' '}
+              <a href="https://kaskus.co.id/" target="_blank" rel="noreferrer">
+                Kaskus
               </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              — turns out hacking together a custom reblog button taught me a lot about HTML &amp;
+              CSS!
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>
+              Fast-forward to today, and I’ve had the privilege of working at a software house
+              agency. My main focus these days is building accessible, inclusive products and
+              digital experiences at <a href="https://icreativelabs.com/">iCreativeLabs</a> for a
+              variety of clients.
+            </p>
+
+            <p>Here are a few technologies I’ve been working with:</p>
           </div>
 
           <ul className="skills-list">
@@ -173,7 +187,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
