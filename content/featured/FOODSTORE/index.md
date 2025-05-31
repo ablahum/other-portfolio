@@ -1,9 +1,9 @@
 ---
 date: '2022'
-title: 'FOODSTORE'
+title: 'Foodstore'
 cover: './home.png'
 github: 'https://github.com/ablahum/foodstore'
-# external: 'https://foodstore.vercel.app/'
+external: 'https://foodstore-ablahum.vercel.app/'
 tech:
   - Bootstrap
   - React.js

@@ -3,7 +3,7 @@ date: '2024'
 title: 'SCH'
 cover: './home.png'
 github: 'https://github.com/ablahum/sch'
-# external: 'https://spotify-profile.herokuapp.com/'
+
 tech:
   - Tailwind
   - Next.js
