@@ -142,11 +142,12 @@ const About = () => {
     'Express.js',
     'PHP',
     'Laravel',
-    'CodeIgniter',
 
+    'CodeIgniter',
     'Prisma',
     'MySQL',
     'PostgreSQL',
+    'Supabase',
     'MongoDB',
   ];
 

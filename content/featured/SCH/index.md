@@ -1,5 +1,5 @@
 ---
-date: '2024'
+date: '2025'
 title: 'SCH'
 cover: './home.png'
 github: 'https://github.com/ablahum/sch'
