@@ -185,10 +185,12 @@ const About = () => {
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working on a variety of projects
-              across different industries. My main focus these days is building accessible,
-              inclusive products and digital experiences that can be used and enjoyed by a wide
-              range of people.
+              Fast-forward to today, I thrive in cross-functional teams, translating business needs
+              into clean code and smooth user experiences. My focus these days is on building
+              accessible, inclusive, and impactful products. Currently, I’m seeking remote
+              opportunities with global teams to create technology that empowers people to work from
+              anywhere — combining my full-stack expertise with growing skills in AI-driven
+              solutions.
             </p>
 
             <p>Here are a few technologies I’ve been working with:</p>

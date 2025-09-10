@@ -1,7 +1,8 @@
 ---
+number: 3,
 date: '2021'
 title: 'Foodstore'
-cover: './home.png'
+cover: './page.png'
 github: 'https://github.com/ablahum/foodstore'
 external: 'https://foodstore-ablahum.vercel.app/'
 tech:

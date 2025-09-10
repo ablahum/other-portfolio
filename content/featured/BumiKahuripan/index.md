@@ -1,4 +1,5 @@
 ---
+number: 4,
 date: '2022'
 title: 'Bumi Kahuripan'
 cover: './home.png'
@@ -11,4 +12,4 @@ tech:
   - PostgreSQL
 ---
 
-A minimal web-based Point of Sales dashboard application built to help manage lodgings.
+A web-based Point of Sales dashboard designed with a simple yet functional interface, this system has successfully improved the operational efficiency and financial transparency of the lodging business.

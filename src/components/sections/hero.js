@@ -63,9 +63,10 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a Full Stack Developer specializing in building, managing, and developing digital
-        solutions. Currently, I’m focused on creating accessible and functional products that
-        deliver real value.
+        I’m a Full Stack Developer with hands-on experience in crafting web applications end-to-end
+        — from designing relational databases and developing efficient APIs to integrating AI
+        solutions into web platforms, giving me hands-on exposure to bridging traditional
+        development with emerging AI technologies.
       </p>
     </>
   );
