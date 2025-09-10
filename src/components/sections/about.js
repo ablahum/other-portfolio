@@ -5,15 +5,14 @@ import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
-// grid-template-columns: repeat(2, minmax(140px, 200px));
-
 const StyledAboutSection = styled.section`
-  max-width: 900px;
+  max-width: 1000px;
 
   .inner {
     display: grid;
     grid-template-columns: 3fr 2fr;
     grid-gap: 50px;
+    align-items: center;
 
     @media (max-width: 768px) {
       display: block;
@@ -24,7 +23,7 @@ const StyledText = styled.div`
   ul.skills-list {
     display: grid;
     grid-auto-flow: column;
-    grid-template-rows: repeat(6, auto);
+    grid-template-rows: repeat(9, auto);
     grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
@@ -51,11 +50,17 @@ const StyledText = styled.div`
 `;
 const StyledPic = styled.div`
   position: relative;
-  max-width: 300px;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 
   @media (max-width: 768px) {
     margin: 50px auto 0;
     width: 70%;
+    display: block;
+    height: auto;
   }
 
   .wrapper {
@@ -149,6 +154,16 @@ const About = () => {
     'PostgreSQL',
     'Supabase',
     'MongoDB',
+
+    'NeonDB',
+    'Firebase',
+    'Git',
+    'Figma',
+    'LLM',
+    'LangChain',
+    'RAG',
+    'Pinecone',
+    'HuggingFace',
   ];
 
   return (
@@ -170,10 +185,10 @@ const About = () => {
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at a software house
-              agency. My main focus these days is building accessible, inclusive products and
-              digital experiences at <a href="https://icreativelabs.com/">iCreativeLabs</a> for a
-              variety of clients.
+              Fast-forward to today, and I’ve had the privilege of working on a variety of projects
+              across different industries. My main focus these days is building accessible,
+              inclusive products and digital experiences that can be used and enjoyed by a wide
+              range of people.
             </p>
 
             <p>Here are a few technologies I’ve been working with:</p>

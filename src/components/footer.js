@@ -72,19 +72,19 @@ const Footer = () => (
     <StyledSocialLinks>
       <ul>
         {socialMedia &&
-            socialMedia.map(({ name, url }, i) => (
-              <li key={i}>
-                <a href={url} aria-label={name}>
-                  <Icon name={name} />
-                </a>
-              </li>
-            ))}
+          socialMedia.map(({ name, url }, i) => (
+            <li key={i}>
+              <a href={url} aria-label={name}>
+                <Icon name={name} />
+              </a>
+            </li>
+          ))}
       </ul>
     </StyledSocialLinks>
 
     <StyledCredit tabindex="-1">
-      <a href="https://github.com/bchiang7/v4">
-        <div>Built by Tama, designed by Brittany</div>
+      <a href="https://github.com/ablahum/other-portfolio">
+        <div>Built by Tama</div>
       </a>
     </StyledCredit>
   </StyledFooter>

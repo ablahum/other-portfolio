@@ -3,7 +3,6 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
-// import { email } from '@config';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -64,26 +63,13 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a Full Stack Developer specializing in building, managing & developing a digital needs.
-        Currently, I’m focused on building accessible, functional products at{' '}
-        <a href="https://icreativelabs.com/" target="_blank" rel="noreferrer">
-          iCreativeLabs
-        </a>
-        .
+        I’m a Full Stack Developer specializing in building, managing, and developing digital
+        solutions. Currently, I’m focused on creating accessible and functional products that
+        deliver real value.
       </p>
     </>
   );
-  // const five = (
-  //   <a
-  //     className="email-link"
-  //     href="https://www.newline.co/courses/build-a-spotify-connected-app"
-  //     target="_blank"
-  //     rel="noreferrer">
-  //     Check out my course!
-  //   </a>
-  // );
 
-  // const items = [one, two, three, four, five];
   const items = [one, two, three, four];
 
   return (

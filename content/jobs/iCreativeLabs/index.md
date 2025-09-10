@@ -7,10 +7,6 @@ range: 'Fulltime | Feb 2025 - Present'
 url: 'https://icreativelabs.com/'
 ---
 
-- ...
-- ...
-- ...
-
-<!-- - Write modern, performant, maintainable code for a diverse array of client and internal projects
-- Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify
-- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis -->
+- Manage and develop a core feature in an internal project management platform, collaborating with product and QA teams to ensure each deployment matched clients’ workflows.
+- Improve task and responsibility management for client-side employees by enhancing the project management workflow and collaborating with client stakeholders and internal dev teams.
+- Lead the CI/CD deployment workflow and proactively optimize frontend and backend performance, working closely with cross-functional teams, resulting in significantly improved user engagement and reduced deployment issues across devices.

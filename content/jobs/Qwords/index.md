@@ -7,5 +7,5 @@ range: 'Internship | May 2023'
 url: 'https://www.qwords.com/'
 ---
 
-- Learned about APIs specification and data flow on the backend side.
-- Learned the basics of PHP programming language with the Laravel framework.
+- Implemented sorting and search algorithms in backend logic to improve data handling in practice tasks.
+- Integrated REST API specifications into frontend components, enabling dynamic data rendering for real-time user views.

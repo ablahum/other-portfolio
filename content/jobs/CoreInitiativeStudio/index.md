@@ -7,6 +7,5 @@ range: 'Internship | Jan 2023'
 url: 'https://coreinitiative.id/'
 ---
 
-- Transform an UI mockup interface design into an e-commerce website with dynamic data and its functions using the VueJS framework.
-- Integrating APIs within the apps, ensuring smooth data retrieval and manipulation.
-- Writing unit tests using Jest to ensure the reliability of the code.
+- Transformed UI mockups into a responsive e-commerce website using Vue.js, integrating dynamic data and implementing core functionalities such as product listing, cart, and checkout.
+- Converted static UI components into fully functional, responsive card elements using Tailwind CSS, improving visual consistency and modularity across the e-commerce project’s product listing page.
