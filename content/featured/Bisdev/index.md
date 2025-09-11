@@ -3,8 +3,7 @@ number: 6,
 date: '2024'
 title: 'Bisdev'
 cover: './home.png'
-external: 'https://bisdev.icreativelabs.com'
-# external: 'https://medium.com/@ablahum/bisdev-a-web-application-to-streamline-internal-operations-a-case-study-144c7dbfb9ea'
+medium: 'https://medium.com/@ablahum/bisdev-a-web-application-to-streamline-internal-operations-a-case-study-144c7dbfb9ea'
 tech:
   - Tailwind
   - Alpine.js

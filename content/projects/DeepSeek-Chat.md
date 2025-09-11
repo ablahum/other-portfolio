@@ -1,6 +1,6 @@
 ---
 number: 3,
-date: '2025-02-01'
+date: '2025'
 title: 'Chatbot with DeepSeek via Ollama'
 github: 'https://github.com/ablahum/deepseek-chat'
 tech:

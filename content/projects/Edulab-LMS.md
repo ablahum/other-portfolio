@@ -1,8 +1,8 @@
 ---
 number: 2,
-date: '2023-08-01'
+date: '2024'
 title: 'Developing an Internal LMS for Thousands of Students (A Case Study)'
-external: 'https://medium.com/@ablahum/building-myedulab-developing-an-internal-lms-for-thousands-of-students-dc11130d7c5d'
+medium: 'https://medium.com/@ablahum/building-myedulab-developing-an-internal-lms-for-thousands-of-students-dc11130d7c5d'
 tech:
   - Tailwind
   - Laravel

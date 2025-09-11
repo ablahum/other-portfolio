@@ -1,8 +1,8 @@
 ---
 number: 6,
-date: '2025-02-01'
+date: '2025'
 title: 'Bisdev: A Web Application to Streamline Internal Operations (A Case Study)'
-external: 'https://medium.com/@ablahum/bisdev-a-web-application-to-streamline-internal-operations-a-case-study-144c7dbfb9ea'
+medium: 'https://medium.com/@ablahum/bisdev-a-web-application-to-streamline-internal-operations-a-case-study-144c7dbfb9ea'
 tech:
   - Tailwind
   - Alpine.js

@@ -170,16 +170,7 @@ const ArchivePage = ({ location, data }) => {
             <tbody>
               {projects.length > 0 &&
                 projects.map(({ node }, i) => {
-                  const {
-                    date,
-                    github,
-                    external,
-                    ios,
-                    android,
-                    title,
-                    tech,
-                    company,
-                  } = node.frontmatter;
+                  const { date, github, external, medium, title, tech, company } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
                       <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
@@ -187,7 +178,7 @@ const ArchivePage = ({ location, data }) => {
                       <td className="title">{title}</td>
 
                       <td className="company hide-on-mobile">
-                        {company ? <span>{company}</span> : <span>—</span>}
+                        {company ? <span>{company}</span> : ''}
                       </td>
 
                       <td className="tech hide-on-mobile">
@@ -213,14 +204,9 @@ const ArchivePage = ({ location, data }) => {
                               <Icon name="GitHub" />
                             </a>
                           )}
-                          {ios && (
-                            <a href={ios} aria-label="Apple App Store Link">
-                              <Icon name="AppStore" />
-                            </a>
-                          )}
-                          {android && (
-                            <a href={android} aria-label="Google Play Store Link">
-                              <Icon name="PlayStore" />
+                          {medium && (
+                            <a href={medium} aria-label="Medium Link">
+                              <Icon name="Medium" />
                             </a>
                           )}
                         </div>
@@ -246,7 +232,7 @@ export const pageQuery = graphql`
   {
     allMarkdownRemark(
       filter: { fileAbsolutePath: { regex: "/content/projects/" } }
-      sort: { fields: [frontmatter___date], order: DESC }
+      sort: { fields: [frontmatter___number], order: ASC }
     ) {
       edges {
         node {
@@ -256,9 +242,8 @@ export const pageQuery = graphql`
             tech
             github
             external
-            ios
-            android
             company
+            medium
           }
           html
         }

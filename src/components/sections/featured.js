@@ -322,6 +322,7 @@ const Featured = () => {
               tech
               github
               external
+              medium
             }
             html
           }
@@ -354,7 +355,7 @@ const Featured = () => {
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, cta } = frontmatter;
+            const { external, title, tech, github, cover, medium, cta } = frontmatter;
             const image = getImage(cover);
 
             return (
@@ -391,6 +392,11 @@ const Featured = () => {
                           <Icon name="GitHub" />
                         </a>
                       )}
+                      {medium && (
+                        <a href={medium} aria-label="Medium Link">
+                          <Icon name="Medium" />
+                        </a>
+                      )}
                       {external && !cta && (
                         <a href={external} aria-label="External Link" className="external">
                           <Icon name="External" />
@@ -401,7 +407,7 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={external ? external : github ? github : '#'}>
+                  <a href={medium ? medium : external ? external : github ? github : '#'}>
                     <GatsbyImage image={image} alt={title} className="img" />
                   </a>
                 </div>

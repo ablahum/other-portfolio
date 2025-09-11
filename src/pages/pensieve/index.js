@@ -5,7 +5,6 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { Layout } from '@components';
-import { IconBookmark } from '@components/icons';
 
 const StyledMainContainer = styled.main`
   & > header {
@@ -170,9 +169,6 @@ const PensievePage = ({ location, data }) => {
                 <StyledPost key={i}>
                   <div className="post__inner">
                     <header>
-                      <div className="post__icon">
-                        <IconBookmark />
-                      </div>
                       <h5 className="post__title">
                         <Link to={slug}>{title}</Link>
                       </h5>
@@ -211,7 +207,10 @@ export default PensievePage;
 export const pageQuery = graphql`
   {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/content/posts/" }, frontmatter: { draft: { ne: true } } }
+      filter: {
+        fileAbsolutePath: { regex: "/content/posts/" }
+        frontmatter: { draft: { ne: true } }
+      }
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

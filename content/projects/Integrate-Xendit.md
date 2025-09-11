@@ -1,8 +1,8 @@
 ---
 number: 4,
-date: '2025-06-01'
+date: '2025'
 title: 'Integrating Xendit Payment Gateway into a Personal POS Web App Built with Next.js'
-external: 'https://medium.com/@ablahum/my-experience-integrating-xendit-payment-gateway-into-a-personal-pos-web-app-built-with-next-js-5ab27f90fb8e'
+medium: 'https://medium.com/@ablahum/my-experience-integrating-xendit-payment-gateway-into-a-personal-pos-web-app-built-with-next-js-5ab27f90fb8e'
 tech:
   - Tailwind
   - ShadCn
