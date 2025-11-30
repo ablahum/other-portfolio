@@ -145,10 +145,11 @@ const About = () => {
     'TypeScript',
     'Node.js',
     'Express.js',
+    'Python',
+    'FastAPI',
+
     'PHP',
     'Laravel',
-
-    'CodeIgniter',
     'Prisma',
     'MySQL',
     'PostgreSQL',
@@ -156,7 +157,6 @@ const About = () => {
     'MongoDB',
 
     'NeonDB',
-    'Firebase',
     'Git',
     'Figma',
     'LLM',
