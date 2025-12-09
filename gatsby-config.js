@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Rizky Pratama',
     description:
-      'Rizky Pratama is a Full Stack Developer with hands-on experience in crafting web applications end-to-end — from designing relational databases and developing efficient APIs to integrating AI solutions into web platforms, giving me hands-on exposure to bridging traditional development with emerging AI technologies.',
+      'Rizky Pratama is a Software Engineer with hands-on experience in crafting web applications end-to-end — from designing relational databases and developing efficient APIs to integrating AI solutions into web platforms, giving me hands-on exposure to bridging traditional development with emerging AI technologies.',
     siteUrl: 'https://tama-dev.vercel.app', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@bchiang7',
